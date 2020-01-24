@@ -1,0 +1,4926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="serp_db@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="mysql">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="sakila">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="serp_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="users_manage">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="world">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="10" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="232" parent="6" name="attendenc_controller">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="233" parent="6" name="attendence_status">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="234" parent="6" name="branch">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="235" parent="6" name="branch_has_department">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="236" parent="6" name="calender_date">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="237" parent="6" name="company">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="238" parent="6" name="day_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="239" parent="6" name="department">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="240" parent="6" name="employee">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="241" parent="6" name="employee_attendance">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="242" parent="6" name="employee_designation">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="243" parent="6" name="employee_has_designation_salary_variables">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="244" parent="6" name="employee_has_leave_application">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="245" parent="6" name="employee_has_leave_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="246" parent="6" name="employee_paysheet">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="247" parent="6" name="employee_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="248" parent="6" name="leave_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="249" parent="6" name="page">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="250" parent="6" name="paysheet">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="251" parent="6" name="paysheet_has_salary_summery">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="252" parent="6" name="position">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="253" parent="6" name="qualification">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="254" parent="6" name="qualification_has_subject">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="255" parent="6" name="qualification_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="256" parent="6" name="qualification_value">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="257" parent="6" name="salary_category">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="258" parent="6" name="salary_type">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="259" parent="6" name="salary_variable">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="260" parent="6" name="shiftment">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="261" parent="6" name="status">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="262" parent="6" name="subject">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="263" parent="6" name="title">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="264" parent="6" name="user_activities">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="265" parent="6" name="user_branch">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="266" parent="6" name="user_login">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="267" parent="6" name="user_privilege">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="268" parent="6" name="user_profile">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="269" parent="6" name="user_profile_has_qualification">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="270" parent="6" name="user_role">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="271" parent="6" name="user_role_has_page">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="272" parent="6" name="user_sessions">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="273" parent="6" name="user_sessions_has_user_activities">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="274" parent="232" name="idattendenc_controller">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="275" parent="232" name="controllercol">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="276" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idattendenc_controller</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="277" parent="233" name="idattendenc_status">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="233" name="attendence_status">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="279" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idattendenc_status</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="280" parent="234" name="idbranch">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="234" name="branch_code">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="234" name="branch_name">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="234" name="is_active">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="234" name="company_idcompany">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="234" name="branch_address">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="234" name="branch_contact">
+      <Position>7</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="234" name="branch_email">
+      <Position>8</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="288" parent="234" name="fk_branch_company1_idx">
+      <ColNames>company_idcompany</ColNames>
+    </index>
+    <key id="289" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idbranch</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="290" parent="234" name="fk_branch_company1">
+      <ColNames>company_idcompany</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>idcompany</RefColNames>
+    </foreign-key>
+    <column id="291" parent="235" name="branch_has_departmentid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="235" name="branch_idbranch">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="235" name="department_iddepartment">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="235" name="company_idcompany">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="295" parent="235" name="fk_branch_has_department_branch1_idx">
+      <ColNames>branch_idbranch</ColNames>
+    </index>
+    <index id="296" parent="235" name="fk_branch_has_department_department1_idx">
+      <ColNames>department_iddepartment</ColNames>
+    </index>
+    <index id="297" parent="235" name="fk_branch_has_department_company1_idx">
+      <ColNames>company_idcompany</ColNames>
+    </index>
+    <key id="298" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>branch_has_departmentid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="299" parent="235" name="fk_branch_has_department_branch1">
+      <ColNames>branch_idbranch</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>branch</RefTableName>
+      <RefColNames>idbranch</RefColNames>
+    </foreign-key>
+    <foreign-key id="300" parent="235" name="fk_branch_has_department_department1">
+      <ColNames>department_iddepartment</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>department</RefTableName>
+      <RefColNames>iddepartment</RefColNames>
+    </foreign-key>
+    <foreign-key id="301" parent="235" name="fk_branch_has_department_company1">
+      <ColNames>company_idcompany</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>idcompany</RefColNames>
+    </foreign-key>
+    <column id="302" parent="236" name="idcalender_date">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="236" name="calender_date">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="236" name="week_day">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="236" name="day_type_idday_type">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="306" parent="236" name="fk_calender_date_day_type1_idx">
+      <ColNames>day_type_idday_type</ColNames>
+    </index>
+    <key id="307" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idcalender_date</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="308" parent="236" name="fk_calender_date_day_type1">
+      <ColNames>day_type_idday_type</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>day_type</RefTableName>
+      <RefColNames>idday_type</RefColNames>
+    </foreign-key>
+    <column id="309" parent="237" name="idcompany">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="237" name="company_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="237" name="company_code">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="312" parent="237" name="company_rate">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="237" name="user_profile_iduser_profile">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="314" parent="237" name="status_idstatus">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="315" parent="237" name="url">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="316" parent="237" name="fk_company_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="317" parent="237" name="fk_company_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="318" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idcompany</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="319" parent="237" name="fk_company_user_profile1">
+      <ColNames>user_profile_iduser_profile</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile</RefTableName>
+      <RefColNames>iduser_profile</RefColNames>
+    </foreign-key>
+    <foreign-key id="320" parent="237" name="fk_company_status1">
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+    <column id="321" parent="238" name="idday_type">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="238" name="day_typ">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="323" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idday_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="324" parent="239" name="iddepartment">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="239" name="department_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="326" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iddepartment</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="327" parent="240" name="idemployee">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="240" name="user_branch_user_has_branchid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="240" name="employee_id">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="240" name="epf">
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="240" name="register_date">
+      <Position>5</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="240" name="probation_start">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="240" name="probation_end">
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="240" name="employee_types_idemployee_types">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="240" name="salary_type_idsalary_type">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="336" parent="240" name="fk_employee_user_branch1_idx">
+      <ColNames>user_branch_user_has_branchid</ColNames>
+    </index>
+    <index id="337" parent="240" name="fk_employee_employee_types1_idx">
+      <ColNames>employee_types_idemployee_types</ColNames>
+    </index>
+    <index id="338" parent="240" name="fk_employee_salary_type1_idx">
+      <ColNames>salary_type_idsalary_type</ColNames>
+    </index>
+    <key id="339" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idemployee
+user_branch_user_has_branchid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="340" parent="240" name="fk_employee_user_branch1">
+      <ColNames>user_branch_user_has_branchid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_branch</RefTableName>
+      <RefColNames>user_has_branchid</RefColNames>
+    </foreign-key>
+    <foreign-key id="341" parent="240" name="fk_employee_employee_types1">
+      <ColNames>employee_types_idemployee_types</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee_type</RefTableName>
+      <RefColNames>idemployee_type</RefColNames>
+    </foreign-key>
+    <foreign-key id="342" parent="240" name="fk_employee_salary_type1">
+      <ColNames>salary_type_idsalary_type</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>salary_type</RefTableName>
+      <RefColNames>idsalary_type</RefColNames>
+    </foreign-key>
+    <column id="343" parent="241" name="employee_attendance_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="241" name="calender_date_idcalender_date">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="241" name="shiftment_idshiftment">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="241" name="arrival_time">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="241" name="departure_time">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="241" name="working_hours">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="241" name="hours_difference">
+      <Position>7</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="241" name="attendence_status_idattendenc_status">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="241" name="employee_idemployee">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="241" name="employee_user_branch_user_has_branchid">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="241" name="date">
+      <Position>11</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="241" name="week_day">
+      <Position>12</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="241" name="branch_idbranch">
+      <Position>13</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="356" parent="241" name="fk_user_branch_has_calender_date_calender_date1_idx">
+      <ColNames>calender_date_idcalender_date</ColNames>
+    </index>
+    <index id="357" parent="241" name="fk_user_branch_has_calender_date_shiftment1_idx">
+      <ColNames>shiftment_idshiftment</ColNames>
+    </index>
+    <index id="358" parent="241" name="fk_employee_attendance_attendence_status1_idx">
+      <ColNames>attendence_status_idattendenc_status</ColNames>
+    </index>
+    <index id="359" parent="241" name="fk_employee_attendance_employee1_idx">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+    </index>
+    <index id="360" parent="241" name="fk_employee_attendance_branch1_idx">
+      <ColNames>branch_idbranch</ColNames>
+    </index>
+    <key id="361" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_attendance_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="362" parent="241" name="fk_user_branch_has_calender_date_calender_date1">
+      <ColNames>calender_date_idcalender_date</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>calender_date</RefTableName>
+      <RefColNames>idcalender_date</RefColNames>
+    </foreign-key>
+    <foreign-key id="363" parent="241" name="fk_user_branch_has_calender_date_shiftment1">
+      <ColNames>shiftment_idshiftment</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>shiftment</RefTableName>
+      <RefColNames>idshiftment</RefColNames>
+    </foreign-key>
+    <foreign-key id="364" parent="241" name="fk_employee_attendance_attendence_status1">
+      <ColNames>attendence_status_idattendenc_status</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>attendence_status</RefTableName>
+      <RefColNames>idattendenc_status</RefColNames>
+    </foreign-key>
+    <foreign-key id="365" parent="241" name="fk_employee_attendance_employee1">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>idemployee
+user_branch_user_has_branchid</RefColNames>
+    </foreign-key>
+    <foreign-key id="366" parent="241" name="fk_employee_attendance_branch1">
+      <ColNames>branch_idbranch</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>branch</RefTableName>
+      <RefColNames>idbranch</RefColNames>
+    </foreign-key>
+    <column id="367" parent="242" name="employee_designation_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="368" parent="242" name="employee_idemployee">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="369" parent="242" name="employee_user_branch_user_has_branchid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="370" parent="242" name="position_idposition">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="242" name="start_date">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="242" name="end_date">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="242" name="status_idstatus">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="374" parent="242" name="fk_employee_has_position_employee1_idx">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+    </index>
+    <index id="375" parent="242" name="fk_employee_has_position_position1_idx">
+      <ColNames>position_idposition</ColNames>
+    </index>
+    <index id="376" parent="242" name="fk_employee_designation_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="377" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_designation_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="378" parent="242" name="fk_employee_has_position_employee1">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>idemployee
+user_branch_user_has_branchid</RefColNames>
+    </foreign-key>
+    <foreign-key id="379" parent="242" name="fk_employee_has_position_position1">
+      <ColNames>position_idposition</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>position</RefTableName>
+      <RefColNames>idposition</RefColNames>
+    </foreign-key>
+    <foreign-key id="380" parent="242" name="fk_employee_designation_status1">
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+    <column id="381" parent="243" name="employee_has_employee_designation_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="243" name="employee_idemployee">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="243" name="employee_designation_employee_designation_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="243" name="value">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="243" name="is_currently">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="243" name="salary_variable_idsalary_variable">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="387" parent="243" name="fk_employee_has_employee_designation_employee1_idx">
+      <ColNames>employee_idemployee</ColNames>
+    </index>
+    <index id="388" parent="243" name="fk_employee_has_employee_designation_employee_designation1_idx">
+      <ColNames>employee_designation_employee_designation_id</ColNames>
+    </index>
+    <index id="389" parent="243" name="fk_employee_has_employee_designation_salary_variable1_idx">
+      <ColNames>salary_variable_idsalary_variable</ColNames>
+    </index>
+    <key id="390" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_has_employee_designation_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="391" parent="243" name="fk_employee_has_employee_designation_employee1">
+      <ColNames>employee_idemployee</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>idemployee</RefColNames>
+    </foreign-key>
+    <foreign-key id="392" parent="243" name="fk_employee_has_employee_designation_employee_designation1">
+      <ColNames>employee_designation_employee_designation_id</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee_designation</RefTableName>
+      <RefColNames>employee_designation_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="393" parent="243" name="fk_employee_has_employee_designation_salary_variable1">
+      <ColNames>salary_variable_idsalary_variable</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>salary_variable</RefTableName>
+      <RefColNames>idsalary_variable_id</RefColNames>
+    </foreign-key>
+    <column id="394" parent="244" name="employee_idemployee">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="244" name="employee_user_branch_user_has_branchid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="244" name="employee_has_leave_applicationid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="244" name="apply_date_time">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="244" name="approved_reject_time">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="244" name="reject_reason">
+      <Position>6</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="244" name="leave_code">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="244" name="approved_rejected_by">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="402" parent="244" name="date_from">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="403" parent="244" name="date_to">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="244" name="leave_status">
+      <Position>11</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="405" parent="244" name="fk_employee_has_leave_application_employee1_idx">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+    </index>
+    <index id="406" parent="244" name="fk_employee_has_leave_application_user_branch1_idx">
+      <ColNames>approved_rejected_by</ColNames>
+    </index>
+    <key id="407" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_has_leave_applicationid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="408" parent="244" name="fk_employee_has_leave_application_employee1">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>idemployee
+user_branch_user_has_branchid</RefColNames>
+    </foreign-key>
+    <foreign-key id="409" parent="244" name="fk_employee_has_leave_application_user_branch1">
+      <ColNames>approved_rejected_by</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_branch</RefTableName>
+      <RefColNames>user_has_branchid</RefColNames>
+    </foreign-key>
+    <column id="410" parent="245" name="employee_idemployee">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="245" name="employee_user_branch_user_has_branchid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="245" name="leave_type_idleave_type">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="413" parent="245" name="employee_leave_typeid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="245" name="total_leave_count_used">
+      <Position>5</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="245" name="total_leave_count_applied">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="245" name="total_leave_count_approved">
+      <Position>7</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="245" name="available_count">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="245" name="applicable_count">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="245" name="year">
+      <Position>10</Position>
+      <DataType>varchar(5)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="420" parent="245" name="month">
+      <Position>11</Position>
+      <DataType>varchar(5)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="421" parent="245" name="fk_employee_has_leave_type_employee1_idx">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+    </index>
+    <index id="422" parent="245" name="fk_employee_has_leave_type_leave_type1_idx">
+      <ColNames>leave_type_idleave_type</ColNames>
+    </index>
+    <key id="423" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_leave_typeid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="424" parent="245" name="fk_employee_has_leave_type_employee1">
+      <ColNames>employee_idemployee
+employee_user_branch_user_has_branchid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>idemployee
+user_branch_user_has_branchid</RefColNames>
+    </foreign-key>
+    <foreign-key id="425" parent="245" name="fk_employee_has_leave_type_leave_type1">
+      <ColNames>leave_type_idleave_type</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>leave_type</RefTableName>
+      <RefColNames>idleave_type</RefColNames>
+    </foreign-key>
+    <column id="426" parent="246" name="employee_paysheetid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="427" parent="246" name="payment_value">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="428" parent="246" name="paysheet_idpaysheet">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="246" name="employee_has_designation_salary_variables_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="430" parent="246" name="fk_employee_paysheet_paysheet1_idx">
+      <ColNames>paysheet_idpaysheet</ColNames>
+    </index>
+    <index id="431" parent="246" name="fk_employee_paysheet_employee_has_designation_salary_variab_idx">
+      <ColNames>employee_has_designation_salary_variables_id</ColNames>
+    </index>
+    <key id="432" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_paysheetid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="433" parent="246" name="fk_employee_paysheet_paysheet1">
+      <ColNames>paysheet_idpaysheet</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>paysheet</RefTableName>
+      <RefColNames>idpaysheet</RefColNames>
+    </foreign-key>
+    <foreign-key id="434" parent="246" name="fk_employee_paysheet_employee_has_designation_salary_variables1">
+      <ColNames>employee_has_designation_salary_variables_id</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>employee_has_designation_salary_variables</RefTableName>
+      <RefColNames>employee_has_employee_designation_id</RefColNames>
+    </foreign-key>
+    <column id="435" parent="247" name="idemployee_type">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="247" name="type">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="437" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idemployee_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="438" parent="248" name="idleave_type">
+<<<<<<< HEAD
+=======
+=======
+    <column id="435" parent="248" name="idleave_type">
+>>>>>>> employee-module
+=======
+    <column id="438" parent="248" name="idleave_type">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="439" parent="248" name="leave_type">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="440" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idleave_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="441" parent="249" name="idpage">
+>>>>>>> employee-module
+=======
+    <column id="438" parent="249" name="idpage">
+>>>>>>> employee-module
+=======
+    <column id="441" parent="249" name="idpage">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="439" parent="248" name="leave_type">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="440" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idleave_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="441" parent="249" name="idpage">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+=======
+>>>>>>> employee-module
+    <column id="442" parent="249" name="page">
+=======
+    <column id="439" parent="249" name="page">
+>>>>>>> employee-module
+=======
+    <column id="442" parent="249" name="page">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="443" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idpage</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="444" parent="250" name="idpaysheet">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="445" parent="250" name="paysheet_code">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="446" parent="250" name="year">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="447" parent="250" name="month">
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="250" name="genarated_time">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="250" name="approved_by">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="450" parent="250" name="fk_paysheet_user_branch1_idx">
+      <ColNames>approved_by</ColNames>
+    </index>
+    <key id="451" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idpaysheet</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="452" parent="250" name="fk_paysheet_user_branch1">
+      <ColNames>approved_by</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_branch</RefTableName>
+      <RefColNames>user_has_branchid</RefColNames>
+    </foreign-key>
+    <column id="453" parent="251" name="paysheet_has_salary_summeryid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="251" name="paysheet_idpaysheet">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="455" parent="251" name="salary_category_idsalary_category">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="251" name="valu">
+      <Position>4</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="457" parent="251" name="fk_paysheet_has_salary_summery_paysheet1_idx">
+=======
+    <index id="457" parent="251" name="fk_paysheet_has_salary_category_paysheet1_idx">
+>>>>>>> employee-module
+=======
+    <index id="454" parent="251" name="fk_paysheet_has_salary_summery_paysheet1_idx">
+>>>>>>> employee-module
+=======
+    <index id="457" parent="251" name="fk_paysheet_has_salary_summery_paysheet1_idx">
+>>>>>>> employee-module
+      <ColNames>paysheet_idpaysheet</ColNames>
+    </index>
+    <index id="458" parent="251" name="fk_paysheet_has_salary_category_salary_category1_idx">
+      <ColNames>salary_category_idsalary_category</ColNames>
+    </index>
+    <key id="459" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>paysheet_has_salary_summeryid</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="460" parent="251" name="fk_paysheet_has_salary_summery_paysheet1">
+=======
+    <foreign-key id="457" parent="251" name="fk_paysheet_has_salary_summery_paysheet1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="460" parent="251" name="fk_paysheet_has_salary_summery_paysheet1">
+>>>>>>> employee-module
+      <ColNames>paysheet_idpaysheet</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>paysheet</RefTableName>
+      <RefColNames>idpaysheet</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="461" parent="251" name="fk_paysheet_has_salary_category_salary_category1">
+=======
+    <foreign-key id="460" parent="251" name="fk_paysheet_has_salary_category_salary_category1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="458" parent="251" name="fk_paysheet_has_salary_category_salary_category1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="461" parent="251" name="fk_paysheet_has_salary_category_salary_category1">
+>>>>>>> employee-module
+      <ColNames>salary_category_idsalary_category</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>salary_category</RefTableName>
+      <RefColNames>idsalary_category</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="462" parent="252" name="idposition">
+=======
+    <column id="461" parent="252" name="idposition">
+>>>>>>> employee-module
+=======
+    <column id="459" parent="252" name="idposition">
+>>>>>>> employee-module
+=======
+    <column id="462" parent="252" name="idposition">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="463" parent="252" name="position">
+=======
+    <column id="462" parent="252" name="position">
+>>>>>>> employee-module
+=======
+    <column id="460" parent="252" name="position">
+>>>>>>> employee-module
+=======
+    <column id="463" parent="252" name="position">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="464" parent="252" name="desciption">
+=======
+    <column id="463" parent="252" name="desciption">
+>>>>>>> employee-module
+=======
+    <column id="461" parent="252" name="desciption">
+>>>>>>> employee-module
+=======
+    <column id="464" parent="252" name="desciption">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="465" parent="252" name="sequence">
+=======
+    <column id="464" parent="252" name="sequence">
+>>>>>>> employee-module
+=======
+    <column id="462" parent="252" name="sequence">
+>>>>>>> employee-module
+=======
+    <column id="465" parent="252" name="sequence">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="466" parent="252" name="PRIMARY">
+=======
+    <key id="465" parent="252" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="463" parent="252" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="466" parent="252" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idposition</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="467" parent="253" name="idqualification">
+=======
+    <column id="466" parent="253" name="idqualification">
+>>>>>>> employee-module
+=======
+    <column id="464" parent="253" name="idqualification">
+>>>>>>> employee-module
+=======
+    <column id="467" parent="253" name="idqualification">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="468" parent="253" name="qualification_name">
+=======
+    <column id="467" parent="253" name="qualification_name">
+>>>>>>> employee-module
+=======
+    <column id="465" parent="253" name="qualification_name">
+>>>>>>> employee-module
+=======
+    <column id="468" parent="253" name="qualification_name">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="469" parent="253" name="description">
+=======
+    <column id="468" parent="253" name="description">
+>>>>>>> employee-module
+=======
+    <column id="466" parent="253" name="description">
+>>>>>>> employee-module
+=======
+    <column id="469" parent="253" name="description">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="470" parent="253" name="qualification_type_idqualification_type">
+=======
+    <column id="469" parent="253" name="qualification_type_idqualification_type">
+>>>>>>> employee-module
+=======
+    <column id="467" parent="253" name="qualification_type_idqualification_type">
+>>>>>>> employee-module
+=======
+    <column id="470" parent="253" name="qualification_type_idqualification_type">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="471" parent="253" name="fk_qualification_qualification_type1_idx">
+      <ColNames>qualification_type_idqualification_type</ColNames>
+    </index>
+    <key id="472" parent="253" name="PRIMARY">
+=======
+    <index id="470" parent="253" name="fk_qualification_qualification_type1_idx">
+      <ColNames>qualification_type_idqualification_type</ColNames>
+    </index>
+    <key id="471" parent="253" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="468" parent="253" name="fk_qualification_qualification_type1_idx">
+      <ColNames>qualification_type_idqualification_type</ColNames>
+    </index>
+    <key id="469" parent="253" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="471" parent="253" name="fk_qualification_qualification_type1_idx">
+      <ColNames>qualification_type_idqualification_type</ColNames>
+    </index>
+    <key id="472" parent="253" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idqualification</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="473" parent="253" name="fk_qualification_qualification_type1">
+=======
+    <foreign-key id="472" parent="253" name="fk_qualification_qualification_type1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="470" parent="253" name="fk_qualification_qualification_type1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="473" parent="253" name="fk_qualification_qualification_type1">
+>>>>>>> employee-module
+      <ColNames>qualification_type_idqualification_type</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>qualification_type</RefTableName>
+      <RefColNames>idqualification_type</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="474" parent="254" name="qualification_has_subjectcol">
+=======
+    <column id="473" parent="254" name="qualification_has_subjectcol">
+>>>>>>> employee-module
+=======
+    <column id="471" parent="254" name="qualification_has_subjectcol">
+>>>>>>> employee-module
+=======
+    <column id="474" parent="254" name="qualification_has_subjectcol">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="475" parent="254" name="qualification_idqualification">
+=======
+    <column id="474" parent="254" name="qualification_idqualification">
+>>>>>>> employee-module
+=======
+    <column id="472" parent="254" name="qualification_idqualification">
+>>>>>>> employee-module
+=======
+    <column id="475" parent="254" name="qualification_idqualification">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="476" parent="254" name="subject_idsubject">
+=======
+    <column id="475" parent="254" name="subject_idsubject">
+>>>>>>> employee-module
+=======
+    <column id="473" parent="254" name="subject_idsubject">
+>>>>>>> employee-module
+=======
+    <column id="476" parent="254" name="subject_idsubject">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="477" parent="254" name="fk_qualification_has_subject_qualification1_idx">
+      <ColNames>qualification_idqualification</ColNames>
+    </index>
+    <index id="478" parent="254" name="fk_qualification_has_subject_subject1_idx">
+      <ColNames>subject_idsubject</ColNames>
+    </index>
+    <key id="479" parent="254" name="PRIMARY">
+=======
+    <index id="476" parent="254" name="fk_qualification_has_subject_qualification1_idx">
+=======
+    <index id="474" parent="254" name="fk_qualification_has_subject_qualification1_idx">
+>>>>>>> employee-module
+=======
+    <index id="477" parent="254" name="fk_qualification_has_subject_qualification1_idx">
+>>>>>>> employee-module
+      <ColNames>qualification_idqualification</ColNames>
+    </index>
+    <index id="478" parent="254" name="fk_qualification_has_subject_subject1_idx">
+      <ColNames>subject_idsubject</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="478" parent="254" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="476" parent="254" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="479" parent="254" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>qualification_has_subjectcol</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="480" parent="254" name="fk_qualification_has_subject_qualification1">
+=======
+    <foreign-key id="479" parent="254" name="fk_qualification_has_subject_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="477" parent="254" name="fk_qualification_has_subject_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="480" parent="254" name="fk_qualification_has_subject_qualification1">
+>>>>>>> employee-module
+      <ColNames>qualification_idqualification</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>qualification</RefTableName>
+      <RefColNames>idqualification</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="481" parent="254" name="fk_qualification_has_subject_subject1">
+=======
+    <foreign-key id="480" parent="254" name="fk_qualification_has_subject_subject1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="478" parent="254" name="fk_qualification_has_subject_subject1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="481" parent="254" name="fk_qualification_has_subject_subject1">
+>>>>>>> employee-module
+      <ColNames>subject_idsubject</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>subject</RefTableName>
+      <RefColNames>idsubject</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="482" parent="255" name="idqualification_type">
+=======
+    <column id="481" parent="255" name="idqualification_type">
+>>>>>>> employee-module
+=======
+    <column id="479" parent="255" name="idqualification_type">
+>>>>>>> employee-module
+=======
+    <column id="482" parent="255" name="idqualification_type">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="483" parent="255" name="qualification_type">
+=======
+    <column id="482" parent="255" name="qualification_type">
+>>>>>>> employee-module
+=======
+    <column id="480" parent="255" name="qualification_type">
+>>>>>>> employee-module
+=======
+    <column id="483" parent="255" name="qualification_type">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="484" parent="255" name="PRIMARY">
+=======
+    <key id="483" parent="255" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="481" parent="255" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="484" parent="255" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idqualification_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="485" parent="256" name="idqualification_value">
+=======
+    <column id="484" parent="256" name="idqualification_value">
+>>>>>>> employee-module
+=======
+    <column id="482" parent="256" name="idqualification_value">
+>>>>>>> employee-module
+=======
+    <column id="485" parent="256" name="idqualification_value">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="486" parent="256" name="user_profile_has_qualification_user_profile_has_qualificationid">
+=======
+    <column id="485" parent="256" name="user_profile_has_qualification_user_profile_has_qualificationid">
+>>>>>>> employee-module
+=======
+    <column id="483" parent="256" name="user_profile_has_qualification_user_profile_has_qualificationid">
+>>>>>>> employee-module
+=======
+    <column id="486" parent="256" name="user_profile_has_qualification_user_profile_has_qualificationid">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="487" parent="256" name="qualification_value">
+=======
+    <column id="486" parent="256" name="qualification_value">
+>>>>>>> employee-module
+=======
+    <column id="484" parent="256" name="qualification_value">
+>>>>>>> employee-module
+=======
+    <column id="487" parent="256" name="qualification_value">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="488" parent="256" name="is_active">
+=======
+    <column id="487" parent="256" name="is_active">
+>>>>>>> employee-module
+=======
+    <column id="485" parent="256" name="is_active">
+>>>>>>> employee-module
+=======
+    <column id="488" parent="256" name="is_active">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="489" parent="256" name="qualification_has_subject_qualification_has_subjectcol">
+=======
+    <column id="488" parent="256" name="qualification_has_subject_qualification_has_subjectcol">
+>>>>>>> employee-module
+=======
+    <column id="486" parent="256" name="qualification_has_subject_qualification_has_subjectcol">
+>>>>>>> employee-module
+=======
+    <column id="489" parent="256" name="qualification_has_subject_qualification_has_subjectcol">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="490" parent="256" name="fk_qualification_value_user_profile_has_qualification1_idx">
+      <ColNames>user_profile_has_qualification_user_profile_has_qualificationid</ColNames>
+    </index>
+    <index id="491" parent="256" name="fk_qualification_value_qualification_has_subject1_idx">
+      <ColNames>qualification_has_subject_qualification_has_subjectcol</ColNames>
+    </index>
+    <key id="492" parent="256" name="PRIMARY">
+=======
+    <index id="489" parent="256" name="fk_qualification_value_user_profile_has_qualification1_idx">
+=======
+    <index id="487" parent="256" name="fk_qualification_value_user_profile_has_qualification1_idx">
+>>>>>>> employee-module
+=======
+    <index id="490" parent="256" name="fk_qualification_value_user_profile_has_qualification1_idx">
+>>>>>>> employee-module
+      <ColNames>user_profile_has_qualification_user_profile_has_qualificationid</ColNames>
+    </index>
+    <index id="491" parent="256" name="fk_qualification_value_qualification_has_subject1_idx">
+      <ColNames>qualification_has_subject_qualification_has_subjectcol</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="491" parent="256" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="489" parent="256" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="492" parent="256" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idqualification_value</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="493" parent="256" name="fk_qualification_value_user_profile_has_qualification1">
+=======
+    <foreign-key id="492" parent="256" name="fk_qualification_value_user_profile_has_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="490" parent="256" name="fk_qualification_value_user_profile_has_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="493" parent="256" name="fk_qualification_value_user_profile_has_qualification1">
+>>>>>>> employee-module
+      <ColNames>user_profile_has_qualification_user_profile_has_qualificationid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile_has_qualification</RefTableName>
+      <RefColNames>user_profile_has_qualificationid</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="494" parent="256" name="fk_qualification_value_qualification_has_subject1">
+=======
+    <foreign-key id="493" parent="256" name="fk_qualification_value_qualification_has_subject1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="491" parent="256" name="fk_qualification_value_qualification_has_subject1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="494" parent="256" name="fk_qualification_value_qualification_has_subject1">
+>>>>>>> employee-module
+      <ColNames>qualification_has_subject_qualification_has_subjectcol</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>qualification_has_subject</RefTableName>
+      <RefColNames>qualification_has_subjectcol</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="495" parent="257" name="idsalary_category">
+=======
+    <column id="494" parent="257" name="idsalary_category">
+>>>>>>> employee-module
+=======
+    <column id="492" parent="257" name="idsalary_category">
+>>>>>>> employee-module
+=======
+    <column id="495" parent="257" name="idsalary_category">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="496" parent="257" name="salary_category">
+=======
+    <column id="495" parent="257" name="salary_category">
+>>>>>>> employee-module
+=======
+    <column id="493" parent="257" name="salary_category">
+>>>>>>> employee-module
+=======
+    <column id="496" parent="257" name="salary_category">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="497" parent="257" name="PRIMARY">
+=======
+    <key id="496" parent="257" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="494" parent="257" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="497" parent="257" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idsalary_category</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="498" parent="258" name="idsalary_type">
+=======
+    <column id="497" parent="258" name="idsalary_type">
+>>>>>>> employee-module
+=======
+    <column id="495" parent="258" name="idsalary_type">
+>>>>>>> employee-module
+=======
+    <column id="498" parent="258" name="idsalary_type">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="499" parent="258" name="salary_type">
+=======
+    <column id="498" parent="258" name="salary_type">
+>>>>>>> employee-module
+=======
+    <column id="496" parent="258" name="salary_type">
+>>>>>>> employee-module
+=======
+    <column id="499" parent="258" name="salary_type">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="500" parent="258" name="PRIMARY">
+=======
+    <key id="499" parent="258" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="497" parent="258" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="500" parent="258" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idsalary_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="501" parent="259" name="idsalary_variable_id">
+=======
+    <column id="500" parent="259" name="idsalary_variable_id">
+>>>>>>> employee-module
+=======
+    <column id="498" parent="259" name="idsalary_variable_id">
+>>>>>>> employee-module
+=======
+    <column id="501" parent="259" name="idsalary_variable_id">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="502" parent="259" name="salary_category_idsalary_category">
+=======
+    <column id="501" parent="259" name="salary_category_idsalary_category">
+>>>>>>> employee-module
+=======
+    <column id="499" parent="259" name="salary_category_idsalary_category">
+>>>>>>> employee-module
+=======
+    <column id="502" parent="259" name="salary_category_idsalary_category">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="503" parent="259" name="salary_variable">
+=======
+    <column id="502" parent="259" name="salary_variable">
+>>>>>>> employee-module
+=======
+    <column id="500" parent="259" name="salary_variable">
+>>>>>>> employee-module
+=======
+    <column id="503" parent="259" name="salary_variable">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="504" parent="259" name="fk_salary_variable_salary_category1_idx">
+      <ColNames>salary_category_idsalary_category</ColNames>
+    </index>
+    <key id="505" parent="259" name="PRIMARY">
+=======
+    <index id="503" parent="259" name="fk_salary_variable_salary_category1_idx">
+      <ColNames>salary_category_idsalary_category</ColNames>
+    </index>
+    <key id="504" parent="259" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="501" parent="259" name="fk_salary_variable_salary_category1_idx">
+      <ColNames>salary_category_idsalary_category</ColNames>
+    </index>
+    <key id="502" parent="259" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="504" parent="259" name="fk_salary_variable_salary_category1_idx">
+      <ColNames>salary_category_idsalary_category</ColNames>
+    </index>
+    <key id="505" parent="259" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idsalary_variable_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="506" parent="259" name="fk_salary_variable_salary_category1">
+=======
+    <foreign-key id="505" parent="259" name="fk_salary_variable_salary_category1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="503" parent="259" name="fk_salary_variable_salary_category1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="506" parent="259" name="fk_salary_variable_salary_category1">
+>>>>>>> employee-module
+      <ColNames>salary_category_idsalary_category</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>salary_category</RefTableName>
+      <RefColNames>idsalary_category</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="507" parent="260" name="idshiftment">
+=======
+    <column id="506" parent="260" name="idshiftment">
+>>>>>>> employee-module
+=======
+    <column id="504" parent="260" name="idshiftment">
+>>>>>>> employee-module
+=======
+    <column id="507" parent="260" name="idshiftment">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="508" parent="260" name="shiftment_name">
+=======
+    <column id="507" parent="260" name="shiftment_name">
+>>>>>>> employee-module
+=======
+    <column id="505" parent="260" name="shiftment_name">
+>>>>>>> employee-module
+=======
+    <column id="508" parent="260" name="shiftment_name">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="509" parent="260" name="start_time">
+=======
+    <column id="508" parent="260" name="start_time">
+>>>>>>> employee-module
+=======
+    <column id="506" parent="260" name="start_time">
+>>>>>>> employee-module
+=======
+    <column id="509" parent="260" name="start_time">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="510" parent="260" name="end_time">
+=======
+    <column id="509" parent="260" name="end_time">
+>>>>>>> employee-module
+=======
+    <column id="507" parent="260" name="end_time">
+>>>>>>> employee-module
+=======
+    <column id="510" parent="260" name="end_time">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="511" parent="260" name="status_idstatus">
+=======
+    <column id="510" parent="260" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="508" parent="260" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="511" parent="260" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="512" parent="260" name="hours_count">
+=======
+    <column id="511" parent="260" name="hours_count">
+>>>>>>> employee-module
+=======
+    <column id="509" parent="260" name="hours_count">
+>>>>>>> employee-module
+=======
+    <column id="512" parent="260" name="hours_count">
+>>>>>>> employee-module
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="513" parent="260" name="fk_shiftment_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="514" parent="260" name="PRIMARY">
+=======
+    <index id="512" parent="260" name="fk_shiftment_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="513" parent="260" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="510" parent="260" name="fk_shiftment_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="511" parent="260" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="513" parent="260" name="fk_shiftment_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="514" parent="260" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idshiftment</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="515" parent="260" name="fk_shiftment_status1">
+=======
+    <foreign-key id="514" parent="260" name="fk_shiftment_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="512" parent="260" name="fk_shiftment_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="515" parent="260" name="fk_shiftment_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="516" parent="261" name="idstatus">
+=======
+    <column id="515" parent="261" name="idstatus">
+>>>>>>> employee-module
+=======
+    <column id="513" parent="261" name="idstatus">
+>>>>>>> employee-module
+=======
+    <column id="516" parent="261" name="idstatus">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="517" parent="261" name="status_type">
+=======
+    <column id="516" parent="261" name="status_type">
+>>>>>>> employee-module
+=======
+    <column id="514" parent="261" name="status_type">
+>>>>>>> employee-module
+=======
+    <column id="517" parent="261" name="status_type">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="518" parent="261" name="PRIMARY">
+=======
+    <key id="517" parent="261" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="515" parent="261" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="518" parent="261" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idstatus</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="519" parent="262" name="idsubject">
+=======
+    <column id="518" parent="262" name="idsubject">
+>>>>>>> employee-module
+=======
+    <column id="516" parent="262" name="idsubject">
+>>>>>>> employee-module
+=======
+    <column id="519" parent="262" name="idsubject">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="520" parent="262" name="subject">
+=======
+    <column id="519" parent="262" name="subject">
+>>>>>>> employee-module
+=======
+    <column id="517" parent="262" name="subject">
+>>>>>>> employee-module
+=======
+    <column id="520" parent="262" name="subject">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="521" parent="262" name="PRIMARY">
+=======
+    <key id="520" parent="262" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="518" parent="262" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="521" parent="262" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idsubject</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="522" parent="263" name="idtitle">
+=======
+    <column id="521" parent="263" name="idtitle">
+>>>>>>> employee-module
+=======
+    <column id="519" parent="263" name="idtitle">
+>>>>>>> employee-module
+=======
+    <column id="522" parent="263" name="idtitle">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="523" parent="263" name="title">
+=======
+    <column id="522" parent="263" name="title">
+>>>>>>> employee-module
+=======
+    <column id="520" parent="263" name="title">
+>>>>>>> employee-module
+=======
+    <column id="523" parent="263" name="title">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="524" parent="263" name="PRIMARY">
+=======
+    <key id="523" parent="263" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="521" parent="263" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="524" parent="263" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idtitle</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="525" parent="264" name="iduser_activities">
+=======
+    <column id="524" parent="264" name="iduser_activities">
+>>>>>>> employee-module
+=======
+    <column id="522" parent="264" name="iduser_activities">
+>>>>>>> employee-module
+=======
+    <column id="525" parent="264" name="iduser_activities">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="526" parent="264" name="activity">
+=======
+    <column id="525" parent="264" name="activity">
+>>>>>>> employee-module
+=======
+    <column id="523" parent="264" name="activity">
+>>>>>>> employee-module
+=======
+    <column id="526" parent="264" name="activity">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="527" parent="264" name="PRIMARY">
+=======
+    <key id="526" parent="264" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="524" parent="264" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="527" parent="264" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_activities</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="528" parent="265" name="user_has_branchid">
+=======
+    <column id="527" parent="265" name="user_has_branchid">
+>>>>>>> employee-module
+=======
+    <column id="525" parent="265" name="user_has_branchid">
+>>>>>>> employee-module
+=======
+    <column id="528" parent="265" name="user_has_branchid">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="529" parent="265" name="user_profile_iduser_profile">
+=======
+    <column id="528" parent="265" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="526" parent="265" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="529" parent="265" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="530" parent="265" name="status_idstatus">
+=======
+    <column id="529" parent="265" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="527" parent="265" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="530" parent="265" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="531" parent="265" name="branch_has_department_branch_has_departmentid">
+=======
+    <column id="530" parent="265" name="branch_has_department_branch_has_departmentid">
+>>>>>>> employee-module
+=======
+    <column id="528" parent="265" name="branch_has_department_branch_has_departmentid">
+>>>>>>> employee-module
+=======
+    <column id="531" parent="265" name="branch_has_department_branch_has_departmentid">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="532" parent="265" name="fk_user_profile_has_branch_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="533" parent="265" name="fk_user_branch_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <index id="534" parent="265" name="fk_user_branch_branch_has_department1_idx">
+      <ColNames>branch_has_department_branch_has_departmentid</ColNames>
+    </index>
+    <key id="535" parent="265" name="PRIMARY">
+=======
+    <index id="531" parent="265" name="fk_user_profile_has_branch_user_profile1_idx">
+=======
+    <index id="529" parent="265" name="fk_user_profile_has_branch_user_profile1_idx">
+>>>>>>> employee-module
+=======
+    <index id="532" parent="265" name="fk_user_profile_has_branch_user_profile1_idx">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="533" parent="265" name="fk_user_branch_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <index id="534" parent="265" name="fk_user_branch_branch_has_department1_idx">
+      <ColNames>branch_has_department_branch_has_departmentid</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="534" parent="265" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="532" parent="265" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="535" parent="265" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_has_branchid</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="536" parent="265" name="fk_user_profile_has_branch_user_profile1">
+=======
+    <foreign-key id="535" parent="265" name="fk_user_profile_has_branch_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="533" parent="265" name="fk_user_profile_has_branch_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="536" parent="265" name="fk_user_profile_has_branch_user_profile1">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile</RefTableName>
+      <RefColNames>iduser_profile</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="537" parent="265" name="fk_user_branch_status1">
+=======
+    <foreign-key id="536" parent="265" name="fk_user_branch_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="534" parent="265" name="fk_user_branch_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="537" parent="265" name="fk_user_branch_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="538" parent="265" name="fk_user_branch_branch_has_department1">
+=======
+    <foreign-key id="537" parent="265" name="fk_user_branch_branch_has_department1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="535" parent="265" name="fk_user_branch_branch_has_department1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="538" parent="265" name="fk_user_branch_branch_has_department1">
+>>>>>>> employee-module
+      <ColNames>branch_has_department_branch_has_departmentid</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>branch_has_department</RefTableName>
+      <RefColNames>branch_has_departmentid</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="539" parent="266" name="iduser_login">
+=======
+    <column id="538" parent="266" name="iduser_login">
+>>>>>>> employee-module
+=======
+    <column id="536" parent="266" name="iduser_login">
+>>>>>>> employee-module
+=======
+    <column id="539" parent="266" name="iduser_login">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="540" parent="266" name="user_name">
+=======
+    <column id="539" parent="266" name="user_name">
+>>>>>>> employee-module
+=======
+    <column id="537" parent="266" name="user_name">
+>>>>>>> employee-module
+=======
+    <column id="540" parent="266" name="user_name">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="541" parent="266" name="password">
+=======
+    <column id="540" parent="266" name="password">
+>>>>>>> employee-module
+=======
+    <column id="538" parent="266" name="password">
+>>>>>>> employee-module
+=======
+    <column id="541" parent="266" name="password">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="542" parent="266" name="user_profile_iduser_profile">
+=======
+    <column id="541" parent="266" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="539" parent="266" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="542" parent="266" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="543" parent="266" name="status_idstatus">
+=======
+    <column id="542" parent="266" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="540" parent="266" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="543" parent="266" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="544" parent="266" name="company_idcompany">
+=======
+    <column id="543" parent="266" name="company_idcompany">
+>>>>>>> employee-module
+=======
+    <column id="541" parent="266" name="company_idcompany">
+>>>>>>> employee-module
+=======
+    <column id="544" parent="266" name="company_idcompany">
+>>>>>>> employee-module
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="545" parent="266" name="fk_user_login_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="546" parent="266" name="fk_user_login_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <index id="547" parent="266" name="fk_user_login_company1_idx">
+      <ColNames>company_idcompany</ColNames>
+    </index>
+    <key id="548" parent="266" name="PRIMARY">
+=======
+    <index id="544" parent="266" name="fk_user_login_user_profile1_idx">
+=======
+    <index id="542" parent="266" name="fk_user_login_user_profile1_idx">
+>>>>>>> employee-module
+=======
+    <index id="545" parent="266" name="fk_user_login_user_profile1_idx">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="546" parent="266" name="fk_user_login_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <index id="547" parent="266" name="fk_user_login_company1_idx">
+      <ColNames>company_idcompany</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="547" parent="266" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="545" parent="266" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="548" parent="266" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_login</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="549" parent="266" name="fk_user_login_user_profile1">
+=======
+    <foreign-key id="548" parent="266" name="fk_user_login_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="546" parent="266" name="fk_user_login_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="549" parent="266" name="fk_user_login_user_profile1">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile</RefTableName>
+      <RefColNames>iduser_profile</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="550" parent="266" name="fk_user_login_status1">
+=======
+    <foreign-key id="549" parent="266" name="fk_user_login_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="547" parent="266" name="fk_user_login_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="550" parent="266" name="fk_user_login_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="551" parent="266" name="fk_user_login_company1">
+=======
+    <foreign-key id="550" parent="266" name="fk_user_login_company1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="548" parent="266" name="fk_user_login_company1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="551" parent="266" name="fk_user_login_company1">
+>>>>>>> employee-module
+      <ColNames>company_idcompany</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>idcompany</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="552" parent="267" name="iduser_privilege">
+=======
+    <column id="551" parent="267" name="iduser_privilege">
+>>>>>>> employee-module
+=======
+    <column id="549" parent="267" name="iduser_privilege">
+>>>>>>> employee-module
+=======
+    <column id="552" parent="267" name="iduser_privilege">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="553" parent="267" name="user_role_has_page_id">
+=======
+    <column id="552" parent="267" name="user_role_has_page_id">
+>>>>>>> employee-module
+=======
+    <column id="550" parent="267" name="user_role_has_page_id">
+>>>>>>> employee-module
+=======
+    <column id="553" parent="267" name="user_role_has_page_id">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="554" parent="267" name="user_profile_iduser_profile">
+=======
+    <column id="553" parent="267" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="551" parent="267" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="554" parent="267" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="555" parent="267" name="status_idstatus">
+=======
+    <column id="554" parent="267" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="552" parent="267" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="555" parent="267" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="556" parent="267" name="fk_user_privilege_user_role_has_page1_idx">
+      <ColNames>user_role_has_page_id</ColNames>
+    </index>
+    <index id="557" parent="267" name="fk_user_privilege_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="558" parent="267" name="fk_user_privilege_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="559" parent="267" name="PRIMARY">
+=======
+    <index id="555" parent="267" name="fk_user_privilege_user_role_has_page1_idx">
+=======
+    <index id="553" parent="267" name="fk_user_privilege_user_role_has_page1_idx">
+>>>>>>> employee-module
+=======
+    <index id="556" parent="267" name="fk_user_privilege_user_role_has_page1_idx">
+>>>>>>> employee-module
+      <ColNames>user_role_has_page_id</ColNames>
+    </index>
+    <index id="557" parent="267" name="fk_user_privilege_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="558" parent="267" name="fk_user_privilege_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="558" parent="267" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="556" parent="267" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="559" parent="267" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_privilege</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="560" parent="267" name="fk_user_privilege_user_role_has_page1">
+=======
+    <foreign-key id="559" parent="267" name="fk_user_privilege_user_role_has_page1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="557" parent="267" name="fk_user_privilege_user_role_has_page1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="560" parent="267" name="fk_user_privilege_user_role_has_page1">
+>>>>>>> employee-module
+      <ColNames>user_role_has_page_id</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_role_has_page</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="561" parent="267" name="fk_user_privilege_user_profile1">
+=======
+    <foreign-key id="560" parent="267" name="fk_user_privilege_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="558" parent="267" name="fk_user_privilege_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="561" parent="267" name="fk_user_privilege_user_profile1">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile</RefTableName>
+      <RefColNames>iduser_profile</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="562" parent="267" name="fk_user_privilege_status1">
+=======
+    <foreign-key id="561" parent="267" name="fk_user_privilege_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="559" parent="267" name="fk_user_privilege_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="562" parent="267" name="fk_user_privilege_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="563" parent="268" name="iduser_profile">
+=======
+    <column id="562" parent="268" name="iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="560" parent="268" name="iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="563" parent="268" name="iduser_profile">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="564" parent="268" name="title_idtitle">
+=======
+    <column id="563" parent="268" name="title_idtitle">
+>>>>>>> employee-module
+=======
+    <column id="561" parent="268" name="title_idtitle">
+>>>>>>> employee-module
+=======
+    <column id="564" parent="268" name="title_idtitle">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="565" parent="268" name="surname">
+=======
+    <column id="564" parent="268" name="surname">
+>>>>>>> employee-module
+=======
+    <column id="562" parent="268" name="surname">
+>>>>>>> employee-module
+=======
+    <column id="565" parent="268" name="surname">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="566" parent="268" name="fname">
+=======
+    <column id="565" parent="268" name="fname">
+>>>>>>> employee-module
+=======
+    <column id="563" parent="268" name="fname">
+>>>>>>> employee-module
+=======
+    <column id="566" parent="268" name="fname">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="567" parent="268" name="lname">
+=======
+    <column id="566" parent="268" name="lname">
+>>>>>>> employee-module
+=======
+    <column id="564" parent="268" name="lname">
+>>>>>>> employee-module
+=======
+    <column id="567" parent="268" name="lname">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="568" parent="268" name="date_of_birth">
+=======
+    <column id="567" parent="268" name="date_of_birth">
+>>>>>>> employee-module
+=======
+    <column id="565" parent="268" name="date_of_birth">
+>>>>>>> employee-module
+=======
+    <column id="568" parent="268" name="date_of_birth">
+>>>>>>> employee-module
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="569" parent="268" name="gender">
+=======
+    <column id="568" parent="268" name="gender">
+>>>>>>> employee-module
+=======
+    <column id="566" parent="268" name="gender">
+>>>>>>> employee-module
+=======
+    <column id="569" parent="268" name="gender">
+>>>>>>> employee-module
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="570" parent="268" name="primary_contact_number">
+=======
+    <column id="569" parent="268" name="primary_contact_number">
+>>>>>>> employee-module
+=======
+    <column id="567" parent="268" name="primary_contact_number">
+>>>>>>> employee-module
+=======
+    <column id="570" parent="268" name="primary_contact_number">
+>>>>>>> employee-module
+      <Position>8</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="571" parent="268" name="contact_number">
+=======
+    <column id="570" parent="268" name="contact_number">
+>>>>>>> employee-module
+=======
+    <column id="568" parent="268" name="contact_number">
+>>>>>>> employee-module
+=======
+    <column id="571" parent="268" name="contact_number">
+>>>>>>> employee-module
+      <Position>9</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="572" parent="268" name="email">
+=======
+    <column id="571" parent="268" name="email">
+>>>>>>> employee-module
+=======
+    <column id="569" parent="268" name="email">
+>>>>>>> employee-module
+=======
+    <column id="572" parent="268" name="email">
+>>>>>>> employee-module
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="573" parent="268" name="p_address">
+=======
+    <column id="572" parent="268" name="p_address">
+>>>>>>> employee-module
+=======
+    <column id="570" parent="268" name="p_address">
+>>>>>>> employee-module
+=======
+    <column id="573" parent="268" name="p_address">
+>>>>>>> employee-module
+      <Position>11</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="574" parent="268" name="address">
+=======
+    <column id="573" parent="268" name="address">
+>>>>>>> employee-module
+=======
+    <column id="571" parent="268" name="address">
+>>>>>>> employee-module
+=======
+    <column id="574" parent="268" name="address">
+>>>>>>> employee-module
+      <Position>12</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="575" parent="268" name="user_code">
+=======
+    <column id="574" parent="268" name="user_code">
+>>>>>>> employee-module
+=======
+    <column id="572" parent="268" name="user_code">
+>>>>>>> employee-module
+=======
+    <column id="575" parent="268" name="user_code">
+>>>>>>> employee-module
+      <Position>13</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="576" parent="268" name="license_no">
+=======
+    <column id="575" parent="268" name="license_no">
+>>>>>>> employee-module
+=======
+    <column id="573" parent="268" name="license_no">
+>>>>>>> employee-module
+=======
+    <column id="576" parent="268" name="license_no">
+>>>>>>> employee-module
+      <Position>14</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="577" parent="268" name="register_date_time">
+=======
+    <column id="576" parent="268" name="register_date_time">
+>>>>>>> employee-module
+=======
+    <column id="574" parent="268" name="register_date_time">
+>>>>>>> employee-module
+=======
+    <column id="577" parent="268" name="register_date_time">
+>>>>>>> employee-module
+      <Position>15</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="578" parent="268" name="user_role_iduser_role">
+=======
+    <column id="577" parent="268" name="user_role_iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="575" parent="268" name="user_role_iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="578" parent="268" name="user_role_iduser_role">
+>>>>>>> employee-module
+      <Position>16</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="579" parent="268" name="nic">
+=======
+    <column id="578" parent="268" name="nic">
+>>>>>>> employee-module
+=======
+    <column id="576" parent="268" name="nic">
+>>>>>>> employee-module
+=======
+    <column id="579" parent="268" name="nic">
+>>>>>>> employee-module
+      <Position>17</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="580" parent="268" name="passport">
+=======
+    <column id="579" parent="268" name="passport">
+>>>>>>> employee-module
+=======
+    <column id="577" parent="268" name="passport">
+>>>>>>> employee-module
+=======
+    <column id="580" parent="268" name="passport">
+>>>>>>> employee-module
+      <Position>18</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="581" parent="268" name="user_profilecol">
+=======
+    <column id="580" parent="268" name="user_profilecol">
+>>>>>>> employee-module
+=======
+    <column id="578" parent="268" name="user_profilecol">
+>>>>>>> employee-module
+=======
+    <column id="581" parent="268" name="user_profilecol">
+>>>>>>> employee-module
+      <Position>19</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="582" parent="268" name="fk_user_profile_title1_idx">
+      <ColNames>title_idtitle</ColNames>
+    </index>
+    <index id="583" parent="268" name="fk_user_profile_user_role_idx">
+      <ColNames>user_role_iduser_role</ColNames>
+    </index>
+    <key id="584" parent="268" name="PRIMARY">
+=======
+    <index id="581" parent="268" name="fk_user_profile_title1_idx">
+=======
+    <index id="579" parent="268" name="fk_user_profile_title1_idx">
+>>>>>>> employee-module
+=======
+    <index id="582" parent="268" name="fk_user_profile_title1_idx">
+>>>>>>> employee-module
+      <ColNames>title_idtitle</ColNames>
+    </index>
+    <index id="583" parent="268" name="fk_user_profile_user_role_idx">
+      <ColNames>user_role_iduser_role</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="583" parent="268" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="581" parent="268" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="584" parent="268" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_profile</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="585" parent="268" name="fk_user_profile_title1">
+=======
+    <foreign-key id="584" parent="268" name="fk_user_profile_title1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="582" parent="268" name="fk_user_profile_title1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="585" parent="268" name="fk_user_profile_title1">
+>>>>>>> employee-module
+      <ColNames>title_idtitle</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>title</RefTableName>
+      <RefColNames>idtitle</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="586" parent="268" name="fk_user_profile_user_role">
+=======
+    <foreign-key id="585" parent="268" name="fk_user_profile_user_role">
+>>>>>>> employee-module
+=======
+    <foreign-key id="583" parent="268" name="fk_user_profile_user_role">
+>>>>>>> employee-module
+=======
+    <foreign-key id="586" parent="268" name="fk_user_profile_user_role">
+>>>>>>> employee-module
+      <ColNames>user_role_iduser_role</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_role</RefTableName>
+      <RefColNames>iduser_role</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="587" parent="269" name="user_profile_has_qualificationid">
+=======
+    <column id="586" parent="269" name="user_profile_has_qualificationid">
+>>>>>>> employee-module
+=======
+    <column id="584" parent="269" name="user_profile_has_qualificationid">
+>>>>>>> employee-module
+=======
+    <column id="587" parent="269" name="user_profile_has_qualificationid">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="588" parent="269" name="user_profile_iduser_profile">
+=======
+    <column id="587" parent="269" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="585" parent="269" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+=======
+    <column id="588" parent="269" name="user_profile_iduser_profile">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="589" parent="269" name="qualification_idqualification">
+=======
+    <column id="588" parent="269" name="qualification_idqualification">
+>>>>>>> employee-module
+=======
+    <column id="586" parent="269" name="qualification_idqualification">
+>>>>>>> employee-module
+=======
+    <column id="589" parent="269" name="qualification_idqualification">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="590" parent="269" name="description">
+=======
+    <column id="589" parent="269" name="description">
+>>>>>>> employee-module
+=======
+    <column id="587" parent="269" name="description">
+>>>>>>> employee-module
+=======
+    <column id="590" parent="269" name="description">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="591" parent="269" name="issued_date">
+=======
+    <column id="590" parent="269" name="issued_date">
+>>>>>>> employee-module
+=======
+    <column id="588" parent="269" name="issued_date">
+>>>>>>> employee-module
+=======
+    <column id="591" parent="269" name="issued_date">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="592" parent="269" name="status">
+=======
+    <column id="591" parent="269" name="status">
+>>>>>>> employee-module
+=======
+    <column id="589" parent="269" name="status">
+>>>>>>> employee-module
+=======
+    <column id="592" parent="269" name="status">
+>>>>>>> employee-module
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="593" parent="269" name="fk_user_profile_has_qualification_user_profile1_idx">
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="594" parent="269" name="fk_user_profile_has_qualification_qualification1_idx">
+      <ColNames>qualification_idqualification</ColNames>
+    </index>
+    <key id="595" parent="269" name="PRIMARY">
+=======
+    <index id="592" parent="269" name="fk_user_profile_has_qualification_user_profile1_idx">
+=======
+    <index id="590" parent="269" name="fk_user_profile_has_qualification_user_profile1_idx">
+>>>>>>> employee-module
+=======
+    <index id="593" parent="269" name="fk_user_profile_has_qualification_user_profile1_idx">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+    </index>
+    <index id="594" parent="269" name="fk_user_profile_has_qualification_qualification1_idx">
+      <ColNames>qualification_idqualification</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="594" parent="269" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="592" parent="269" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="595" parent="269" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_profile_has_qualificationid</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="596" parent="269" name="fk_user_profile_has_qualification_user_profile1">
+=======
+    <foreign-key id="595" parent="269" name="fk_user_profile_has_qualification_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="593" parent="269" name="fk_user_profile_has_qualification_user_profile1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="596" parent="269" name="fk_user_profile_has_qualification_user_profile1">
+>>>>>>> employee-module
+      <ColNames>user_profile_iduser_profile</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_profile</RefTableName>
+      <RefColNames>iduser_profile</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="597" parent="269" name="fk_user_profile_has_qualification_qualification1">
+=======
+    <foreign-key id="596" parent="269" name="fk_user_profile_has_qualification_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="594" parent="269" name="fk_user_profile_has_qualification_qualification1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="597" parent="269" name="fk_user_profile_has_qualification_qualification1">
+>>>>>>> employee-module
+      <ColNames>qualification_idqualification</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>qualification</RefTableName>
+      <RefColNames>idqualification</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="598" parent="270" name="iduser_role">
+=======
+    <column id="597" parent="270" name="iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="595" parent="270" name="iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="598" parent="270" name="iduser_role">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="599" parent="270" name="user_role">
+=======
+    <column id="598" parent="270" name="user_role">
+>>>>>>> employee-module
+=======
+    <column id="596" parent="270" name="user_role">
+>>>>>>> employee-module
+=======
+    <column id="599" parent="270" name="user_role">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="600" parent="270" name="status_idstatus">
+=======
+    <column id="599" parent="270" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="597" parent="270" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="600" parent="270" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="601" parent="270" name="fk_user_role_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="602" parent="270" name="PRIMARY">
+=======
+    <index id="600" parent="270" name="fk_user_role_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="601" parent="270" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="598" parent="270" name="fk_user_role_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="599" parent="270" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="601" parent="270" name="fk_user_role_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="602" parent="270" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_role</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="603" parent="270" name="fk_user_role_status1">
+=======
+    <foreign-key id="602" parent="270" name="fk_user_role_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="600" parent="270" name="fk_user_role_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="603" parent="270" name="fk_user_role_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="604" parent="271" name="id">
+=======
+    <column id="603" parent="271" name="id">
+>>>>>>> employee-module
+=======
+    <column id="601" parent="271" name="id">
+>>>>>>> employee-module
+=======
+    <column id="604" parent="271" name="id">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="605" parent="271" name="user_role_iduser_role">
+=======
+    <column id="604" parent="271" name="user_role_iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="602" parent="271" name="user_role_iduser_role">
+>>>>>>> employee-module
+=======
+    <column id="605" parent="271" name="user_role_iduser_role">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="606" parent="271" name="page_idpage">
+=======
+    <column id="605" parent="271" name="page_idpage">
+>>>>>>> employee-module
+=======
+    <column id="603" parent="271" name="page_idpage">
+>>>>>>> employee-module
+=======
+    <column id="606" parent="271" name="page_idpage">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="607" parent="271" name="status_idstatus">
+=======
+    <column id="606" parent="271" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="604" parent="271" name="status_idstatus">
+>>>>>>> employee-module
+=======
+    <column id="607" parent="271" name="status_idstatus">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="608" parent="271" name="fk_user_role_has_page_user_role1_idx">
+      <ColNames>user_role_iduser_role</ColNames>
+    </index>
+    <index id="609" parent="271" name="fk_user_role_has_page_page1_idx">
+      <ColNames>page_idpage</ColNames>
+    </index>
+    <index id="610" parent="271" name="fk_user_role_has_page_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+    <key id="611" parent="271" name="PRIMARY">
+=======
+    <index id="607" parent="271" name="fk_user_role_has_page_user_role1_idx">
+=======
+    <index id="605" parent="271" name="fk_user_role_has_page_user_role1_idx">
+>>>>>>> employee-module
+=======
+    <index id="608" parent="271" name="fk_user_role_has_page_user_role1_idx">
+>>>>>>> employee-module
+      <ColNames>user_role_iduser_role</ColNames>
+    </index>
+    <index id="609" parent="271" name="fk_user_role_has_page_page1_idx">
+      <ColNames>page_idpage</ColNames>
+    </index>
+    <index id="610" parent="271" name="fk_user_role_has_page_status1_idx">
+      <ColNames>status_idstatus</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="610" parent="271" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="608" parent="271" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="611" parent="271" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="612" parent="271" name="fk_user_role_has_page_user_role1">
+=======
+    <foreign-key id="611" parent="271" name="fk_user_role_has_page_user_role1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="609" parent="271" name="fk_user_role_has_page_user_role1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="612" parent="271" name="fk_user_role_has_page_user_role1">
+>>>>>>> employee-module
+      <ColNames>user_role_iduser_role</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_role</RefTableName>
+      <RefColNames>iduser_role</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="613" parent="271" name="fk_user_role_has_page_page1">
+=======
+    <foreign-key id="612" parent="271" name="fk_user_role_has_page_page1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="610" parent="271" name="fk_user_role_has_page_page1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="613" parent="271" name="fk_user_role_has_page_page1">
+>>>>>>> employee-module
+      <ColNames>page_idpage</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>page</RefTableName>
+      <RefColNames>idpage</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="614" parent="271" name="fk_user_role_has_page_status1">
+=======
+    <foreign-key id="613" parent="271" name="fk_user_role_has_page_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="611" parent="271" name="fk_user_role_has_page_status1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="614" parent="271" name="fk_user_role_has_page_status1">
+>>>>>>> employee-module
+      <ColNames>status_idstatus</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>status</RefTableName>
+      <RefColNames>idstatus</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="615" parent="272" name="iduser_sessions">
+=======
+    <column id="614" parent="272" name="iduser_sessions">
+>>>>>>> employee-module
+=======
+    <column id="612" parent="272" name="iduser_sessions">
+>>>>>>> employee-module
+=======
+    <column id="615" parent="272" name="iduser_sessions">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="616" parent="272" name="in_time">
+=======
+    <column id="615" parent="272" name="in_time">
+>>>>>>> employee-module
+=======
+    <column id="613" parent="272" name="in_time">
+>>>>>>> employee-module
+=======
+    <column id="616" parent="272" name="in_time">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="617" parent="272" name="out_time">
+=======
+    <column id="616" parent="272" name="out_time">
+>>>>>>> employee-module
+=======
+    <column id="614" parent="272" name="out_time">
+>>>>>>> employee-module
+=======
+    <column id="617" parent="272" name="out_time">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>varchar(25)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="618" parent="272" name="ip">
+=======
+    <column id="617" parent="272" name="ip">
+>>>>>>> employee-module
+=======
+    <column id="615" parent="272" name="ip">
+>>>>>>> employee-module
+=======
+    <column id="618" parent="272" name="ip">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="619" parent="272" name="user_login_iduser_login">
+=======
+    <column id="618" parent="272" name="user_login_iduser_login">
+>>>>>>> employee-module
+=======
+    <column id="616" parent="272" name="user_login_iduser_login">
+>>>>>>> employee-module
+=======
+    <column id="619" parent="272" name="user_login_iduser_login">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="620" parent="272" name="fk_user_sessions_user_login1_idx">
+      <ColNames>user_login_iduser_login</ColNames>
+    </index>
+    <key id="621" parent="272" name="PRIMARY">
+=======
+    <index id="619" parent="272" name="fk_user_sessions_user_login1_idx">
+      <ColNames>user_login_iduser_login</ColNames>
+    </index>
+    <key id="620" parent="272" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="617" parent="272" name="fk_user_sessions_user_login1_idx">
+      <ColNames>user_login_iduser_login</ColNames>
+    </index>
+    <key id="618" parent="272" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <index id="620" parent="272" name="fk_user_sessions_user_login1_idx">
+      <ColNames>user_login_iduser_login</ColNames>
+    </index>
+    <key id="621" parent="272" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser_sessions</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="622" parent="272" name="fk_user_sessions_user_login1">
+=======
+    <foreign-key id="621" parent="272" name="fk_user_sessions_user_login1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="619" parent="272" name="fk_user_sessions_user_login1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="622" parent="272" name="fk_user_sessions_user_login1">
+>>>>>>> employee-module
+      <ColNames>user_login_iduser_login</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_login</RefTableName>
+      <RefColNames>iduser_login</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="623" parent="273" name="user_sessions_has_user_activitiesid">
+=======
+    <column id="622" parent="273" name="user_sessions_has_user_activitiesid">
+>>>>>>> employee-module
+=======
+    <column id="620" parent="273" name="user_sessions_has_user_activitiesid">
+>>>>>>> employee-module
+=======
+    <column id="623" parent="273" name="user_sessions_has_user_activitiesid">
+>>>>>>> employee-module
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="624" parent="273" name="user_sessions_iduser_sessions">
+=======
+    <column id="623" parent="273" name="user_sessions_iduser_sessions">
+>>>>>>> employee-module
+=======
+    <column id="621" parent="273" name="user_sessions_iduser_sessions">
+>>>>>>> employee-module
+=======
+    <column id="624" parent="273" name="user_sessions_iduser_sessions">
+>>>>>>> employee-module
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="625" parent="273" name="user_activities_iduser_activities">
+=======
+    <column id="624" parent="273" name="user_activities_iduser_activities">
+>>>>>>> employee-module
+=======
+    <column id="622" parent="273" name="user_activities_iduser_activities">
+>>>>>>> employee-module
+=======
+    <column id="625" parent="273" name="user_activities_iduser_activities">
+>>>>>>> employee-module
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="626" parent="273" name="description">
+=======
+    <column id="625" parent="273" name="description">
+>>>>>>> employee-module
+=======
+    <column id="623" parent="273" name="description">
+>>>>>>> employee-module
+=======
+    <column id="626" parent="273" name="description">
+>>>>>>> employee-module
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <column id="627" parent="273" name="time">
+=======
+    <column id="626" parent="273" name="time">
+>>>>>>> employee-module
+=======
+    <column id="624" parent="273" name="time">
+>>>>>>> employee-module
+=======
+    <column id="627" parent="273" name="time">
+>>>>>>> employee-module
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <index id="628" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1_idx">
+      <ColNames>user_sessions_iduser_sessions</ColNames>
+    </index>
+    <index id="629" parent="273" name="fk_user_sessions_has_user_activities_user_activities1_idx">
+      <ColNames>user_activities_iduser_activities</ColNames>
+    </index>
+    <key id="630" parent="273" name="PRIMARY">
+=======
+    <index id="627" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1_idx">
+=======
+    <index id="625" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1_idx">
+>>>>>>> employee-module
+=======
+    <index id="628" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1_idx">
+>>>>>>> employee-module
+      <ColNames>user_sessions_iduser_sessions</ColNames>
+    </index>
+    <index id="629" parent="273" name="fk_user_sessions_has_user_activities_user_activities1_idx">
+      <ColNames>user_activities_iduser_activities</ColNames>
+    </index>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <key id="629" parent="273" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="627" parent="273" name="PRIMARY">
+>>>>>>> employee-module
+=======
+    <key id="630" parent="273" name="PRIMARY">
+>>>>>>> employee-module
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_sessions_has_user_activitiesid</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="631" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1">
+=======
+    <foreign-key id="630" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="628" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="631" parent="273" name="fk_user_sessions_has_user_activities_user_sessions1">
+>>>>>>> employee-module
+      <ColNames>user_sessions_iduser_sessions</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_sessions</RefTableName>
+      <RefColNames>iduser_sessions</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <foreign-key id="632" parent="273" name="fk_user_sessions_has_user_activities_user_activities1">
+=======
+    <foreign-key id="631" parent="273" name="fk_user_sessions_has_user_activities_user_activities1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="629" parent="273" name="fk_user_sessions_has_user_activities_user_activities1">
+>>>>>>> employee-module
+=======
+    <foreign-key id="632" parent="273" name="fk_user_sessions_has_user_activities_user_activities1">
+>>>>>>> employee-module
+      <ColNames>user_activities_iduser_activities</ColNames>
+      <RefSchemaName>serp_db</RefSchemaName>
+      <RefTableName>user_activities</RefTableName>
+      <RefColNames>iduser_activities</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

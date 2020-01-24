@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> salary-management
+    <list default="true" id="670878d9-d500-4a6d-b3f7-ce182414638f" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3216696-5b6d-4f6e-9316-7ddf486b43ac.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d3216696-5b6d-4f6e-9316-7ddf486b43ac.xml" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" afterPath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+=======
+<<<<<<< HEAD
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/views/Attendenc/duty_roster_manage.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" afterPath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/New_user_from_controller.php" afterPath="$PROJECT_DIR$/application/controllers/New_user_from_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Page_controller.php" afterPath="$PROJECT_DIR$/application/controllers/Page_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/login_controller.php" afterPath="$PROJECT_DIR$/application/controllers/login_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/models/Branch_has_department_model.php" afterPath="$PROJECT_DIR$/application/models/Branch_has_department_model.php" />
+      <change beforePath="$PROJECT_DIR$/application/models/Department_models.php" afterPath="$PROJECT_DIR$/application/models/Department_models.php" />
+      <change beforePath="$PROJECT_DIR$/application/views/Admin/Setting_page/attendenc_controller.php" afterPath="$PROJECT_DIR$/application/views/Admin/Setting_page/attendenc_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/views/Admin/dashboard.php" afterPath="$PROJECT_DIR$/application/views/Admin/dashboard.php" />
+      <change beforePath="$PROJECT_DIR$/application/views/include/sidebar.php" afterPath="$PROJECT_DIR$/application/views/include/sidebar.php" />
+      <change beforePath="$PROJECT_DIR$/js/attendenc_controller_ajax.js" afterPath="$PROJECT_DIR$/js/attendenc_controller_ajax.js" />
+      <change beforePath="$PROJECT_DIR$/js/include_page.js" afterPath="$PROJECT_DIR$/js/include_page.js" />
+>>>>>>> employee-module
+    </list>
+=======
+    <list default="true" id="08a11cb7-c802-4be9-acb5-cb6219400372" name="Default" comment="" />
+>>>>>>> employee-module
+=======
+    <list default="true" id="08a11cb7-c802-4be9-acb5-cb6219400372" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" afterPath="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/File_upload_controller.php" afterPath="$PROJECT_DIR$/application/controllers/File_upload_controller.php" />
+      <change beforePath="$PROJECT_DIR$/application/models/Employee_models.php" afterPath="$PROJECT_DIR$/application/models/Employee_models.php" />
+      <change beforePath="$PROJECT_DIR$/application/models/attendenc/Employee_attendance_models.php" afterPath="$PROJECT_DIR$/application/models/attendenc/Employee_attendance_models.php" />
+      <change beforePath="$PROJECT_DIR$/application/views/Attendenc/daily_attendenc.php" afterPath="$PROJECT_DIR$/application/views/Attendenc/daily_attendenc.php" />
+      <change beforePath="$PROJECT_DIR$/js/attendenc_controller_ajax.js" afterPath="$PROJECT_DIR$/js/attendenc_controller_ajax.js" />
+=======
+    <list default="true" id="08a11cb7-c802-4be9-acb5-cb6219400372" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> employee-module
+>>>>>>> salary-management
+    </list>
+>>>>>>> employee-module
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="false" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="serp_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="serp_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="serp_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="serp_db: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="employee_has_employee_designation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/salary/employee_has_employee_designation.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="357">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="174">
+              <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+=======
+    <leaf>
+      <file leaf-file-name="Attendenc_controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="210" column="0" lean-forward="true" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="attendenc_controller_ajax.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/attendenc_controller_ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="257">
+              <caret line="277" column="28" lean-forward="true" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
+>>>>>>> employee-module
+=======
+            <state relative-caret-position="359">
+              <caret line="667" column="0" lean-forward="true" selection-start-line="667" selection-start-column="0" selection-end-line="667" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+            <state relative-caret-position="68">
+              <caret line="238" column="37" lean-forward="true" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
+>>>>>>> employee-module
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> employee-module
+      <file leaf-file-name="Attendenc_controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="652" column="22" lean-forward="false" selection-start-line="652" selection-start-column="18" selection-end-line="652" selection-end-column="22" />
+              <folding>
+                <marker date="1522390242199" expanded="true" signature="13820:13854" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="14183:14217" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="14548:14582" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="14919:14953" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="15289:15323" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="15655:15689" ph="..." />
+                <marker date="1522390242199" expanded="true" signature="16023:16057" ph="..." />
+              </folding>
+=======
+            <state relative-caret-position="118">
+              <caret line="638" column="63" lean-forward="false" selection-start-line="638" selection-start-column="63" selection-end-line="638" selection-end-column="63" />
+              <folding />
+>>>>>>> salary-management
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_attendenc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/Attendenc/daily_attendenc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_attendance" pinned="false" current-in-tab="true">
+        <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_attendance">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="Branch_has_department_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Branch_has_department_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+>>>>>>> employee-module
+=======
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="181" column="30" lean-forward="true" selection-start-line="177" selection-start-column="23" selection-end-line="181" selection-end-column="30" />
+=======
+      <file leaf-file-name="attendence_status" pinned="false" current-in-tab="false">
+        <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.attendence_status">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shiftment" pinned="false" current-in-tab="false">
+        <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.shiftment">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="170" column="18" lean-forward="true" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+>>>>>>> salary-management
+>>>>>>> employee-module
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+=======
+>>>>>>> employee-module
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>input-group</find>
+      <find>input-group-addon</find>
+      <find>row</find>
+      <find>table-striped</find>
+      <find>load_shiftment_for_select</find>
+      <find>branch_register_step4</find>
+      <find>serch_department_has_branch</find>
+      <find>load_department_has_branch_table</find>
+      <find>department_register_step5</find>
+      <find>Welcome. Try hovering over me. You can click things behind me, because I'm non-blocking.</find>
+      <find>save_user_login_account</find>
+      <find>serch_branchall</find>
+      <find>insert_company</find>
+      <find>insert</find>
+      <find>create-user-form-step_2</find>
+      <find>load_employee_duty_roster</find>
+      <find>save_profile_data</find>
+      <find>datatable-buttons</find>
+      <find>save_qualification_user</find>
+      <find>where_search_Qualification_value_profile_has_qualification_id</find>
+      <find>pleas select shiftment</find>
+      <find>shiftment</find>
+      <find>employee_attend_update</find>
+      <find>uncheck_employee_duty_roster</find>
+      <find>where_search_employee_id_pass_employee_id</find>
+      <find>where_search_employee_id_pass_employee_id_code</find>
+      <find>delete_Employee_attendance_duty_roster</find>
+      <find>insert_Employee_attendance</find>
+      <find>Save_shiftment()</find>
+      <find>PNotify</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="salary-management" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/views/test2.php" />
+        <option value="$PROJECT_DIR$/application/views/test.php" />
+        <option value="$PROJECT_DIR$/js/ajax.js" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/new_user_from.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/settings.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_type_models.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_models.php" />
+        <option value="$PROJECT_DIR$/application/views/include/script_file.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/build/js/custom.js" />
+        <option value="$PROJECT_DIR$/js/test.js" />
+        <option value="$PROJECT_DIR$/application/views/Qualification/qualification_manage.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/models/qualification/Subject_models.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_has_subject_models.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/User_profile_has_qualification_models.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_value_models.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Qualification_controller.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Employee_has_employee_designation_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/salary_type.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/salary_variable.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/salary_variable_models.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/calender_controller.php" />
+        <option value="$PROJECT_DIR$/js/moment/calender_manage_ajax.js" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Day_type_models.php" />
+=======
+>>>>>>> employee-module
+=======
+        <option value="$PROJECT_DIR$/application/views/test2.php" />
+        <option value="$PROJECT_DIR$/application/views/test.php" />
+=======
+>>>>>>> salary-management
+        <option value="$PROJECT_DIR$/application/models/attendenc/Calender_date_models.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/calender_mange.php" />
+        <option value="$PROJECT_DIR$/js/calender_manage_ajax.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Paysheet_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Paysheet_has_salary_summery_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Employee_paysheet_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Leave_type_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Employee_has_leave_application_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Employee_has_leave_type_models.php" />
+=======
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Attendence_status_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/employee_has_employee_designation.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/salary_category_models.php" />
+        <option value="$PROJECT_DIR$/application/models/Department_models.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/controllers/New_user_from_controller.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/js/ajax.js" />
+<<<<<<< HEAD
+>>>>>>> employee-module
+=======
+        <option value="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/models/Salary_type_models.php" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/js/employee_ajax.js" />
+        <option value="$PROJECT_DIR$/application/views/Admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/js/include_page.js" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/employee/emloyee_detail.php" />
+<<<<<<< HEAD
+>>>>>>> employee-module
+=======
+=======
+        <option value="$PROJECT_DIR$/application/models/Salary_type_models.php" />
+        <option value="$PROJECT_DIR$/js/employee_ajax.js" />
+        <option value="$PROJECT_DIR$/application/views/Admin/dashboard.php" />
+>>>>>>> employee-module
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/views/Qualification/qualification_add.php" />
+        <option value="$PROJECT_DIR$/js/qualification_ajax.js" />
+        <option value="$PROJECT_DIR$/application/controllers/Employee_controller.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/models/Position_models.php" />
+        <option value="$PROJECT_DIR$/application/models/Employee_designation_models.php" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Shiftment_models.php" />
+        <option value="$PROJECT_DIR$/js/calender_manage_ajax.js" />
+        <option value="$PROJECT_DIR$/application/models/User_branch_models.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/attendenc_controller.php" />
+        <option value="$PROJECT_DIR$/application/controllers/login_controller.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/calender_mange.php" />
+        <option value="$PROJECT_DIR$/vendors/datatables.net-keytable/js/dataTables.keyTable.js" />
+        <option value="$PROJECT_DIR$/vendors/bootstrap/less/tables.less" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/models/attendenc/Employee_attendance_models.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/js/attendenc_controller_ajax.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/views/Attendenc/duty_roster_manage.php" />
+>>>>>>> employee-module
+=======
+        <option value="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/views/Attendenc/duty_roster.php" />
+=======
+>>>>>>> employee-module
+        <option value="$PROJECT_DIR$/application/models/Branch_has_department_model.php" />
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+        <option value="$PROJECT_DIR$/js/ajax.js" />
+        <option value="$PROJECT_DIR$/application/models/Company_models.php" />
+        <option value="$PROJECT_DIR$/application/models/Branch_models.php" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/new_user_from.php" />
+<<<<<<< HEAD
+>>>>>>> employee-module
+=======
+        <option value="$PROJECT_DIR$/application/views/Admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/controllers/New_user_from_controller.php" />
+        <option value="$PROJECT_DIR$/application/models/User_profile_models.php" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/employee/emloyee_detail.php" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/employee/profile.php" />
+        <option value="$PROJECT_DIR$/application/views/Attendenc/duty_roster.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/User_profile_has_qualification_models.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_value_models.php" />
+        <option value="$PROJECT_DIR$/application/models/qualification/Qualification_has_subject_models.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Employee_controller.php" />
+        <option value="$PROJECT_DIR$/application/views/Register_forms/employee/search_employee_details.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Qualification_controller.php" />
+        <option value="$PROJECT_DIR$/js/employee_ajax.js" />
+        <option value="$PROJECT_DIR$/application/views/Qualification/qualification_add.php" />
+        <option value="$PROJECT_DIR$/js/qualification_ajax.js" />
+        <option value="$PROJECT_DIR$/application/views/Attendenc/duty_roster_manage.php" />
+        <option value="$PROJECT_DIR$/application/views/Attendenc/daly_attendenc.php" />
+        <option value="$PROJECT_DIR$/js/include_page.js" />
+        <option value="$PROJECT_DIR$/application/controllers/Page_controller.php" />
+        <option value="$PROJECT_DIR$/application/views/include/sidebar.php" />
+        <option value="$PROJECT_DIR$/Excel_Upload_/index.php" />
+        <option value="$PROJECT_DIR$/js/upload.php" />
+        <option value="$PROJECT_DIR$/application/views/File_upload/atted_file_upload.php" />
+        <option value="$PROJECT_DIR$/application/models/Employee_models.php" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/views/Admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Day_type_models.php" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Calender_date_models.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Setting_page/calender_mange.php" />
+        <option value="$PROJECT_DIR$/js/calender_manage_ajax.js" />
+        <option value="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Paysheet_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Paysheet_has_salary_summery_models.php" />
+        <option value="$PROJECT_DIR$/application/models/salary/Employee_paysheet_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Leave_type_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Employee_has_leave_application_models.php" />
+        <option value="$PROJECT_DIR$/application/models/leave/Employee_has_leave_type_models.php" />
+=======
+>>>>>>> salary-management
+        <option value="$PROJECT_DIR$/application/controllers/File_upload_controller.php" />
+        <option value="$PROJECT_DIR$/application/models/attendenc/Employee_attendance_models.php" />
+        <option value="$PROJECT_DIR$/js/attendenc_controller_ajax.js" />
+<<<<<<< HEAD
+>>>>>>> employee-module
+=======
+        <option value="$PROJECT_DIR$/application/controllers/Attendenc_controller.php" />
+        <option value="$PROJECT_DIR$/application/views/Attendenc/daily_attendenc.php" />
+>>>>>>> employee-module
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-82" />
+    <option name="y" value="19" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+=======
+>>>>>>> employee-module
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> employee-module
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> employee-module
+=======
+>>>>>>> employee-module
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> salary-management
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="leave" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+=======
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="attendenc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> employee-module
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+=======
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="salary" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+=======
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> salary-management
+              <item name="Attendenc" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+=======
+>>>>>>> employee-module
+=======
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> salary-management
+=======
+              <item name="Register_forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
+              <item name="Attendenc" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+=======
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Register_forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Setting_page" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> salary-management
+              <item name="Register_forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="employee" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+=======
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendors" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Attendenc" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> employee-module
+              <item name="Register_forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="employee" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Attend" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="Attend" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> employee-module
+>>>>>>> salary-management
+            </path>
+            <path>
+              <item name="SERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+      <pane id="Scope" />
+=======
+>>>>>>> salary-management
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\build\js" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\js" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\js" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\application\views\Admin\Setting_page" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\application\views\Register_forms" />
+      <recent name="C:\Program Files (x86)\Ampps\www\SERP\application\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a11cb7-c802-4be9-acb5-cb6219400372" name="Default" comment="" />
+      <created>1517979762869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517979762869</updated>
+      <workItem from="1517979766630" duration="20942000" />
+      <workItem from="1518007176792" duration="838000" />
+      <workItem from="1518014437359" duration="5085000" />
+      <workItem from="1518060232825" duration="25416000" />
+      <workItem from="1518264010566" duration="10349000" />
+      <workItem from="1518317218818" duration="7536000" />
+      <workItem from="1518408511690" duration="26834000" />
+      <workItem from="1518492441508" duration="5556000" />
+      <workItem from="1518498214324" duration="25478000" />
+      <workItem from="1518579379205" duration="30116000" />
+      <workItem from="1518620641283" duration="1549000" />
+      <workItem from="1518665471686" duration="3957000" />
+      <workItem from="1518669546766" duration="9809000" />
+      <workItem from="1518679768423" duration="7150000" />
+      <workItem from="1518689358053" duration="36000" />
+      <workItem from="1518689434058" duration="6586000" />
+      <workItem from="1518752325887" duration="31225000" />
+      <workItem from="1518792297703" duration="5778000" />
+      <workItem from="1518922766568" duration="31641000" />
+      <workItem from="1519013826515" duration="28263000" />
+      <workItem from="1519125270188" duration="8952000" />
+      <workItem from="1519186194089" duration="26322000" />
+      <workItem from="1519270935640" duration="30038000" />
+      <workItem from="1519356997386" duration="30562000" />
+      <workItem from="1519527900275" duration="3619000" />
+      <workItem from="1519622333622" duration="22110000" />
+      <workItem from="1519702808094" duration="24728000" />
+      <workItem from="1519788938561" duration="25190000" />
+      <workItem from="1519962307201" duration="18418000" />
+      <workItem from="1520221791837" duration="27690000" />
+      <workItem from="1520307966491" duration="7933000" />
+      <workItem from="1520428206214" duration="6000" />
+      <workItem from="1520828845597" duration="11146000" />
+      <workItem from="1520912415822" duration="16956000" />
+      <workItem from="1520936669278" duration="8881000" />
+      <workItem from="1520952611771" duration="2544000" />
+      <workItem from="1520998678238" duration="31868000" />
+      <workItem from="1521084922309" duration="17479000" />
+      <workItem from="1521108728769" duration="8516000" />
+      <workItem from="1521171857353" duration="25575000" />
+      <workItem from="1521294087895" duration="659000" />
+      <workItem from="1521343009575" duration="9241000" />
+      <workItem from="1521434281986" duration="27707000" />
+      <workItem from="1521516407788" duration="28507000" />
+      <workItem from="1521602210263" duration="5664000" />
+      <workItem from="1521688386813" duration="20333000" />
+      <workItem from="1521714292799" duration="8000000" />
+      <workItem from="1521774947209" duration="10364000" />
+      <workItem from="1521789576011" duration="13424000" />
+      <workItem from="1522043862692" duration="23646000" />
+      <workItem from="1522121440909" duration="30854000" />
+      <workItem from="1522207725245" duration="30300000" />
+      <workItem from="1522294631745" duration="31767000" />
+      <workItem from="1522380154056" duration="7626000" />
+      <workItem from="1522392385194" duration="2444000" />
+      <workItem from="1522643350076" duration="6856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="533318000" />
+=======
+    <option name="totallyTimeSpent" value="579450000" />
+>>>>>>> employee-module
+=======
+    <option name="totallyTimeSpent" value="581856000" />
+>>>>>>> employee-module
+=======
+    <option name="totallyTimeSpent" value="650792000" />
+>>>>>>> employee-module
+=======
+    <option name="totallyTimeSpent" value="768830000" />
+>>>>>>> employee-module
+=======
+    <option name="totallyTimeSpent" value="787194000" />
+>>>>>>> employee-module
+=======
+    <option name="totallyTimeSpent" value="924811000" />
+=======
+    <option name="totallyTimeSpent" value="533318000" />
+=======
+    <option name="totallyTimeSpent" value="934111000" />
+>>>>>>> salary-management
+>>>>>>> employee-module
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> salary-management
+>>>>>>> employee-module
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5060514" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> salary-management
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3651316" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> employee-module
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19969743" sideWeight="0.50961536" order="2" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+>>>>>>> employee-module
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3651316" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3651316" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> employee-module
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19969743" sideWeight="0.50961536" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> employee-module
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3651316" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> employee-module
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5060514" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3651316" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.4903846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19969743" sideWeight="0.50961536" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="C:\Program Files (x86)\Ampps\www\SERP\serp" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.qualification_value">
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/Qualification_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="243" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/qualification_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="230" column="76" lean-forward="true" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Qualification/qualification_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/emloyee_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="143" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> employee-module
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Calender_date_models.php">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.calender_date">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Day_type_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/js/qualification_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.qualification_value">
+=======
+>>>>>>> salary-management
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_profile_has_qualification">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.qualification_has_subject">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/Salary_type_models.php">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Company_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Employee_type_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.shiftment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/Employee_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+>>>>>>> employee-module
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.qualification">
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/qualification/Qualification_value_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="74" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Qualification_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="326" column="33" lean-forward="true" selection-start-line="326" selection-start-column="33" selection-end-line="326" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Qualification/qualification_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="211" column="15" lean-forward="true" selection-start-line="211" selection-start-column="15" selection-end-line="211" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.status">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/login_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Shiftment_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="53" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/login_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="147" column="24" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="24" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/Qualification/qualification_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/search_employee_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Excel_Upload_/Excel_Upload_/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Excel_Upload_/Excel_Upload_/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Shiftment_models.php">
+=======
+>>>>>>> salary-management
+    <entry file="file://$USER_HOME$/Desktop/Excel_Upload_/Excel_Upload_/Classes/PHPExcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="407" column="90" lean-forward="true" selection-start-line="407" selection-start-column="90" selection-end-line="407" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Attendenc/duty_roster_manage.php">
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Shiftment_models.php">
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/salary/salary_category_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/salary/employee_has_employee_designation.php">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/calender_manage_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/vendors/bootstrap/less/tables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/include/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Page_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/js/include_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="24" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excel_Upload_/index.php" />
+    <entry file="file://$PROJECT_DIR$/Excel_Upload_/Classes/PHPExcel/IOFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Excel_Upload_/upload.php" />
+    <entry file="file://$PROJECT_DIR$/js/index.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="119" column="3" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Setting_page/settings.php">
+=======
+>>>>>>> salary-management
+    <entry file="file://$PROJECT_DIR$/application/views/File_upload/atted_file_upload.php" />
+    <entry file="file://$PROJECT_DIR$/application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/Page_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="70" column="51" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="51" />
+<<<<<<< HEAD
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Setting_page/settings.php">
+=======
+    <entry file="file://$PROJECT_DIR$/js/include_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding />
+=======
+>>>>>>> employee-module
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/js/qualification_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/Department_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/login.php">
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="70" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/views/include/sidebar.php">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="75" column="73" lean-forward="false" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="73" />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/js/employee_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="209" column="55" lean-forward="false" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/vendors/pnotify/dist/pnotify.brighttheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/qualification/Qualification_has_subject_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="72" column="85" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="85" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/Employee_controller.php">
+=======
+>>>>>>> salary-management
+    <entry file="file://$PROJECT_DIR$/js/form_wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/new_user_from.php">
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="288" column="0" lean-forward="true" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/Employee_controller.php">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_profile">
+>>>>>>> employee-module
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_branch">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/build/js/custom.js">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/Branch_models.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Setting_page/attendenc_controller.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/vendors/pnotify/dist/pnotify.confirm.js">
+=======
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="328" column="59" lean-forward="false" selection-start-line="328" selection-start-column="51" selection-end-line="328" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/vendors/pnotify/dist/pnotify.css">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Calender_date_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="238">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+=======
+        <state relative-caret-position="238">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+>>>>>>> employee-module
+>>>>>>> salary-management
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Shiftment_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+=======
+        <state relative-caret-position="-80">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+<<<<<<< HEAD
+          <folding />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/login_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding />
+=======
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="306">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="101">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="135">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Employee_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="108" column="34" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="108" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/File_upload_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Employee_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="337" column="0" lean-forward="true" selection-start-line="334" selection-start-column="6" selection-end-line="337" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Settings_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Admin_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Attendence_status_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.shiftment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.attendence_status">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> salary-management
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Employee_attendance_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/employee_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/build/js/custom.js" />
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+=======
+=======
+>>>>>>> employee-module
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_profile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/login_controller.php">
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/User_branch_models.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/profile.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/build/js/custom.js" />
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/dashboard.php">
+>>>>>>> salary-management
+=======
+    <entry file="file://$PROJECT_DIR$/js/qualification_ajax.js">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+<<<<<<< HEAD
+          <folding />
+=======
+>>>>>>> salary-management
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/views/Attendenc/duty_roster.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/Company_models.php">
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/js/calender_manage_ajax.js">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="101" column="15" lean-forward="true" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/js/attendenc_controller_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+        <state relative-caret-position="17">
+          <caret line="358" column="0" lean-forward="false" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+=======
+        <state relative-caret-position="118">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/include_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Salary_type_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="425">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="37" />
+=======
+        <state relative-caret-position="220">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+=======
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_branch">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.user_login">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/new_user_from.php">
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/profile.php">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+=======
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+>>>>>>> salary-management
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/attendenc_controller_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="323" column="46" lean-forward="true" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="425">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="37" />
+=======
+        <state relative-caret-position="118">
+          <caret line="638" column="63" lean-forward="false" selection-start-line="638" selection-start-column="63" selection-end-line="638" selection-end-column="63" />
+          <folding />
+<<<<<<< HEAD
+=======
+>>>>>>> employee-module
+>>>>>>> salary-management
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Register_forms/employee/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="322">
+          <caret line="181" column="30" lean-forward="true" selection-start-line="177" selection-start-column="23" selection-end-line="181" selection-end-column="30" />
+          <folding />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="652" column="22" lean-forward="false" selection-start-line="652" selection-start-column="18" selection-end-line="652" selection-end-column="22" />
+          <folding>
+            <marker date="1522390242199" expanded="true" signature="13820:13854" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="14183:14217" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="14548:14582" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="14919:14953" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="15289:15323" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="15655:15689" ph="..." />
+            <marker date="1522390242199" expanded="true" signature="16023:16057" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/attendenc_controller_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="221">
+          <caret line="113" column="28" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="28" />
+>>>>>>> employee-module
+          <folding />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="-11441">
+          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="237">
+          <caret line="132" column="42" lean-forward="true" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+=======
+        <state relative-caret-position="381">
+          <caret line="322" column="0" lean-forward="true" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/Department_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> salary-management
+<<<<<<< HEAD
+        <state relative-caret-position="816">
+          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Setting_page/calender_mange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="7" lean-forward="false" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/calender_manage_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/attendenc/Attendence_status_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="51" column="62" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+=======
+        <state relative-caret-position="228">
+          <caret line="323" column="46" lean-forward="true" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_has_designation_salary_variables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Admin_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="254">
+          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="682">
+          <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="17">
+          <caret line="15151" column="36" lean-forward="false" selection-start-line="15151" selection-start-column="36" selection-end-line="15151" selection-end-column="36" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="296">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+=======
+        <state relative-caret-position="339">
+          <caret line="170" column="18" lean-forward="true" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+>>>>>>> salary-management
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/Branch_has_department_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> salary-management
+        <state relative-caret-position="258">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+=======
+        <state relative-caret-position="327">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="29" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/salary/Paysheet_has_salary_summery_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/salary/Paysheet_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+=======
+        <state relative-caret-position="17">
+          <caret line="2879" column="17" lean-forward="false" selection-start-line="2879" selection-start-column="8" selection-end-line="2879" selection-end-column="17" />
+          <folding>
+            <marker date="1520574454214" expanded="true" signature="33876:33908" ph="..." />
+            <marker date="1520574454214" expanded="true" signature="35432:35439" ph="×" />
+            <marker date="1520574454214" expanded="true" signature="57876:57888" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/dashboard.php">
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="51">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="33" />
+          <folding />
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch_has_department">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_attendance">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> employee-module
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/Branch_models.php">
+>>>>>>> employee-module
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="407">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="69" selection-end-column="20" />
+=======
+>>>>>>> salary-management
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/New_user_from_controller.php">
+=======
+    <entry file="file://$PROJECT_DIR$/application/models/salary/Paysheet_models.php">
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="271">
+          <caret line="197" column="22" lean-forward="true" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/salary/Employee_paysheet_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/salary/salary_variable_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/User_profile_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/leave/Employee_has_leave_application_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="95" column="45" lean-forward="false" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/leave/Leave_type_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+=======
+        <state relative-caret-position="1529">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/leave/Employee_has_leave_type_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+=======
+        <state relative-caret-position="225">
+          <caret line="381" column="0" lean-forward="true" selection-start-line="381" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="373">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/models/salary/employee_has_employee_designation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/views/Attendenc/duty_roster_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="117" column="59" lean-forward="true" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
+>>>>>>> employee-module
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="297" column="29" lean-forward="true" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="29" />
+>>>>>>> employee-module
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.branch_has_department">
+=======
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.shiftment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.attendence_status">
+>>>>>>> salary-management
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591">
+          <caret line="302" column="7" lean-forward="true" selection-start-line="302" selection-start-column="7" selection-end-line="302" selection-end-column="7" />
+>>>>>>> employee-module
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/application/controllers/Attendenc_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="315" column="31" lean-forward="false" selection-start-line="315" selection-start-column="31" selection-end-line="315" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/views/Attendenc/daily_attendenc.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="272">
+          <caret line="50" column="82" lean-forward="true" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
+>>>>>>> employee-module
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> employee-module
+=======
+        <state relative-caret-position="104">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+>>>>>>> employee-module
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b370035/d3216696-5b6d-4f6e-9316-7ddf486b43ac/serp_db.employee_attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> salary-management
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
